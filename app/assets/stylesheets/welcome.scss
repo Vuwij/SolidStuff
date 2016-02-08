@@ -1,0 +1,46 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap";
+
+.body {
+	font: 16px Montserrat;
+}
+
+.menu_bar {
+	border: 1px solid red;
+	font: 36px;
+	text-align: center;
+
+}
+
+.content {
+	border: 1px solid green;
+	height: 400px;
+}
+
+.model_container {
+	background: rgb(220,220,220);
+	height: 100%;
+	overflow:auto;
+	padding: 0px;
+}
+.viewer {
+	background: gray;
+	height: 100%;
+}
+
+.model_search {
+	margin: 0px;
+	background: rgb(100, 100, 100);
+	h6 {
+		color: white;
+		margin: 0px;
+		padding: 10px;
+	}
+}
+
+canvas { 
+	width: 50%;
+	height: 400px;
+}

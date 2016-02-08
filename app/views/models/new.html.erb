@@ -1,0 +1,31 @@
+<h1>Upload Your Model Here</h1>
+ 
+<%= form_for Model.new, html: { multipart: true } do |m| %>
+
+  <p>
+    <%= m.label :name %><br>
+    <%= m.text_field :name %>
+  </p>
+ 
+  <p>
+    <%= m.label :price %><br>
+    <%= m.text_field :price %>
+  </p>
+  
+  <p>
+    <%= m.label :description %><br>
+    <%= m.text_area :description, :placeholder=>'Describe the 3D model here' %>
+  </p>
+
+  <p>
+    <%= m.label :fileurl %><br>
+    <%= m.file_field :fileurl %>
+  </p>
+
+  <p>
+    <%= m.submit %>
+  </p>
+ 
+<% end %>
+ 
+<%= link_to 'Back', models_path %>

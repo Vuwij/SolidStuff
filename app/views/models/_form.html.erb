@@ -1,0 +1,40 @@
+<%= form_for @model do |m| %>
+ 
+  <% if @model.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@article.errors.count, "error") %> : Error!
+      </h2>
+      <ul>
+        <% @article.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+ 
+  <p>
+    <%= m.label :name %><br>
+    <%= m.text_field :name %>
+  </p>
+ 
+  <p>
+    <%= m.label :price %><br>
+    <%= m.text_field :price %>
+  </p>
+  
+  <p>
+    <%= m.label :description %><br>
+    <%= m.text_area :description, :placeholder=>'Describe the 3D model here' %>
+  </p>
+
+  <p>
+    <%= m.label :nil %><br>
+    <%= m.file_field :nil %>
+  </p>
+
+  <p>
+    <%= m.submit %>
+  </p>
+ 
+<% end %>

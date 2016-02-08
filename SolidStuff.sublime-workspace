@@ -1,0 +1,213 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"trian",
+				"triangle_size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff"
+	],
+	"file_history":
+	[
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/SolidStuff",
+		"/Users/vuwij/Developer/Website/_Ruby/blog/app/views/comments/_form.html.erb",
+		"/Users/vuwij/Developer/Website/_Ruby/blog/app/views/articles/_form",
+		"/Users/vuwij/Developer/Website/_Ruby/blog/app/models/article.rb",
+		"/Users/vuwij/Developer/Website/_Ruby/blog/app/views/articles/show.html.erb",
+		"/Users/vuwij/Developer/Website/_Ruby/blog/app/views/articles/index.html.erb",
+		"/Users/vuwij/Developer/Website/_Ruby/blog/app/views/articles/new.html.erb",
+		"/Users/vuwij/Developer/Website/_Ruby/blog/app/views/articles/edit.html.erb",
+		"/Users/vuwij/Developer/UnityProjects/Macabre-III/Assets/Scripts/Characters/CharacterPlayer.cs",
+		"/Users/vuwij/Downloads/Lab6.v",
+		"/Users/vuwij/Downloads/ashrae_wp-3.sql",
+		"/Users/vuwij/Desktop/starterKit/Java/botplayer/PlayerAI.java",
+		"/Users/vuwij/Desktop/starterKit/Java/Results/Game-1.json",
+		"/Users/vuwij/Developer/Website/CESA/wp-content/themes/CESA/footer.php",
+		"/Users/vuwij/Developer/Website/CESA/wp-content/themes/CESA/functions.php",
+		"/Users/vuwij/Developer/Website/CESA/wp-content/themes/CESA/js/cesa.js",
+		"/Users/vuwij/Developer/Website/CESA/wp-content/themes/CESA/css/cesa.css",
+		"/Users/vuwij/Developer/Website/CESA/wp-content/themes/CESA/core/frontpage.php",
+		"/Users/vuwij/Developer/Website/CESA/wp-content/themes/CESA/home.php",
+		"/Users/vuwij/Developer/Website/CESA/wp-content/themes/CESA/core/slider.php",
+		"/Users/vuwij/Developer/Website/CESA/wp-content/themes/CESA/header.php",
+		"/Users/vuwij/Developer/Website/CESA/wp-content/themes/CESA/core/body.php",
+		"/Users/vuwij/Developer/Website/SKULE/wp-content/themes/bones/library/bones.php",
+		"/Users/vuwij/Developer/Website/SKULE/wp-content/themes/bones/header.php",
+		"/Users/vuwij/Developer/Website/SKULE/wp-content/themes/bones/index.php",
+		"/Users/vuwij/Developer/Website/SKULE/wp-content/themes/bones/404.php",
+		"/Users/vuwij/Developer/Website/SKULE/wp-content/themes/bones/footer.php",
+		"/Users/vuwij/Developer/Website/SKULE/wp-content/themes/bones/library/css/style.css",
+		"/Users/vuwij/Developer/Website/SKULE/wp-content/themes/bones/sidebar-boxes2.php",
+		"/Users/vuwij/Developer/Website/SKULE/wp-content/themes/bones/sidebar.php",
+		"/Users/vuwij/Developer/Website/SKULE/wp-content/themes/bones/functions.php",
+		"/Users/vuwij/Developer/Website/SKULE/wp-content/index.php",
+		"/Users/vuwij/Library/Application Support/Steam/steamapps/common/Unturned/Bundles/Animals/Deer/Deer.dat",
+		"/Users/vuwij/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/vuwij/Developer/UnityProjects/Macabre-III/Assets/Scripts/Buildings/MacabreDoor.cs.meta",
+		"/Users/vuwij/Developer/UnityProjects/Macabre-III/Assets/Scripts/Buildings/MacabrePortal.cs.meta",
+		"/Users/vuwij/Developer/PHP/testproject",
+		"/Users/vuwij/node_modules/less/package.json"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"this",
+			"engoscbanner_sept12.jpg",
+			"wp_footer"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "SolidStuff.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 293.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,25 @@
+<script type="text/javascript">
+  var currentModel;
+
+  function changeView(fileurl) {
+    currentModel = fileurl;
+    console.log(currentModel);
+  }
+</script>
+
+
+<table class = "model table table-hover table-striped">
+  <tr>
+    <th style = "width:20%;">Name</th>
+    <th style = "width:20%">Price</th>
+    <th style = "width:40%">Purchase</th>
+  </tr>
+
+  <% @models.each do |m| %>
+    <tr class = "clickable-row" href = "#" onclick = "changeView('<%= m.fileurl %>');" >
+      <td><%= m.name %></td>
+      <td><%= m.price %></td>
+      <td><%= link_to "Purchase", m %></td>
+    </tr>
+  <% end %>
+</table>
