@@ -1,0 +1,29 @@
+test: &default
+
+  # Credentials for REST APIs
+  client_id: AbngnRXiqRGzCc56YMnmAzHBnHVDs48LONmleL0ChRlGocCvN9imJG9l0wE9ZWI6bIzy-tHTZEbB6OYC
+  client_secret: EAtGl-LmEbjy28icaX3tfp5eZ9FTW8wB2JY6bRLH2i8eHhofJSCDglHkVw_5gKQrecSUSOAWgFgf8Urn
+
+  # Mode can be 'live' or 'sandbox'
+  mode: sandbox
+
+  # Credentials for Classic APIs
+  app_id: APP-80W284485P519543T
+  username: vuwij_api1.me.com
+  password: E9QJ7MCXP4BW6CAC
+  signature: AFcWxV21C7fd0v3bYYYRCpSSRl31AK7QNkA9-nkfA38fZ7KMM7Sr0Sat
+  # # With Certificate
+  # cert_path: "config/cert_key.pem"
+  sandbox_email_address: Platform.sdk.seller@gmail.com
+
+  # # IP Address
+  # ip_address: 127.0.0.1
+  # # HTTP Proxy
+  # http_proxy: http://proxy-ipaddress:3129/
+
+development:
+  <<: *default
+
+production:
+  <<: *default
+  mode: live

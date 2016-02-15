@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160207030329) do
+ActiveRecord::Schema.define(version: 20160215043352) do
 
   create_table "articles", force: :cascade do |t|
     t.string   "title"
@@ -36,8 +36,23 @@ ActiveRecord::Schema.define(version: 20160207030329) do
     t.float    "price"
     t.string   "description"
     t.string   "fileurl"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at",          null: false
+    t.datetime "updated_at",          null: false
+    t.text     "notification_params"
+    t.string   "status"
+    t.string   "transaction_id"
+    t.datetime "purchased_at"
+    t.string   "purchased"
+  end
+
+  create_table "payment_notifications", force: :cascade do |t|
+    t.text     "params"
+    t.integer  "cart_id"
+    t.string   "status"
+    t.string   "transaction_id"
+    t.string   "create"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
   end
 
   create_table "st_lmodels", force: :cascade do |t|

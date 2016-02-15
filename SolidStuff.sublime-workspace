@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"padding",
+				"padding-top"
+			],
+			[
 				"trian",
 				"triangle_size"
 			]
@@ -11,6 +15,94 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/views/welcome/_model_viewer.html.erb",
+			"settings":
+			{
+				"buffer_size": 1182,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/welcome/_modals.html.erb",
+			"settings":
+			{
+				"buffer_size": 2893,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 62,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/models/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 1454,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/models/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 603,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/application_controller.rb",
+			"settings":
+			{
+				"buffer_size": 298,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/environments/development.rb",
+			"settings":
+			{
+				"buffer_size": 1990,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/environments/test.rb",
+			"settings":
+			{
+				"buffer_size": 1833,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/environments/production.rb",
+			"settings":
+			{
+				"buffer_size": 3617,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1630,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/articles_controller.rb",
+			"settings":
+			{
+				"buffer_size": 899,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -44,10 +136,57 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff"
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/controllers",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/config",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/config/environments",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/db/migrate",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/lib"
 	],
 	"file_history":
 	[
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/models/model.rb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/assets/javascripts/application.js",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/assets/javascripts/models.coffee",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/assets/stylesheets/welcome.scss",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/views/welcome/index.html.erb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/controllers/models_controller.rb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/assets/javascripts/animateModel.js",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/views/models/index.html.erb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/views/welcome/_model_viewer.html.erb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/controllers/welcome_controller.rb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/views/welcome/_header.html.erb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/assets/javascripts/three.min.js",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/assets/stylesheets/articles.scss",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/views/articles/_form.html.erb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/views/models/_form.html.erb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/controllers/st_lmodel_controller.rb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/config/routes.rb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/assets/stylesheets/models.scss",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/uploaders/attachment_uploader.rb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/views/layouts/application.html.erb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/views/models/new.html.erb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/Gemfile",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/models/st_lmodel.rb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/views/models/show.html.erb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/views/welcome/_modals.html.erb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/views/welcome/_model_list.html.erb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/models/article.rb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/views/articles/index.html.erb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/controllers/articles_controller.rb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/views/articles/show.html.erb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/db/migrate/20160206235115_create_articles.rb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/models/user.rb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/views/sessions/_form.html.erb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/views/users/_new.html.erb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/controllers/application_controller.rb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/config/environments/development.rb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/config/initializers/clearance.rb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/controllers/users_controller.rb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/views/sessions/_new.html.erb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/views/welcome/_modal_signin.html.erb",
+		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/app/assets/stylesheets/application.css.scss",
 		"/Users/vuwij/Developer/Website/_Ruby/SolidStuff/SolidStuff",
 		"/Users/vuwij/Developer/Website/_Ruby/blog/app/views/comments/_form.html.erb",
 		"/Users/vuwij/Developer/Website/_Ruby/blog/app/views/articles/_form",
@@ -89,7 +228,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -103,6 +242,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"container",
 			"this",
 			"engoscbanner_sept12.jpg",
 			"wp_footer"
@@ -123,8 +263,331 @@
 	"groups":
 	[
 		{
+			"selected": 10,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/views/welcome/_model_viewer.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1182,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								185,
+								185
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/welcome/_modals.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2893,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2715,
+								2715
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 691.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/models/user.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 62,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								62,
+								62
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/models/show.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1454,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1361,
+								1361
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/models/index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 603,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								564,
+								564
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/controllers/application_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 298,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								236,
+								236
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "config/environments/development.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1990,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1971,
+								1818
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 151.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "config/environments/test.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1833,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1826,
+								1826
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "config/environments/production.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3617,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3399,
+								3413
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 206.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1630,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								157,
+								157
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 146.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/controllers/articles_controller.rb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 899,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

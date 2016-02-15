@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'payment_notification/create'
+
   get 'users/new'
   get 'welcome/index'
 
@@ -17,6 +19,9 @@ Rails.application.routes.draw do
   resources :models
 
   resources :st_lmodels, only: [:index, :new, :create, :destroy]
+
+  post "/models/:id" => "models#show"
+  post "/hook" => "models#hook"
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase

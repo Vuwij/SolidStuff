@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  params: MyText
+  cart-id: 1
+  status: MyString
+  transaction-id: MyString
+  create: MyString
+
+two:
+  params: MyText
+  cart-id: 1
+  status: MyString
+  transaction-id: MyString
+  create: MyString

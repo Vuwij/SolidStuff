@@ -12,7 +12,8 @@
   <tr>
     <th style = "width:20%;">Name</th>
     <th style = "width:20%">Price</th>
-    <th style = "width:40%">Purchase</th>
+    <th style = "width:20%">Purchase</th>
+    <th style = "width:30%">Download</th>
   </tr>
 
   <% @models.each do |m| %>
@@ -20,6 +21,13 @@
       <td><%= m.name %></td>
       <td><%= m.price %></td>
       <td><%= link_to "Purchase", m %></td>
+      <td>
+      <a href = '<%= m.fileurl %>'>
+      <%= if params[:payment_status] == "Completed"
+        Download
+      end %>
+      </a>
+      </td>
     </tr>
   <% end %>
 </table>

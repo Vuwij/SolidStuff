@@ -29,6 +29,18 @@ class ModelsController < ApplicationController
     	redirect_to welcome_path
   	end
 	
+	protect_from_forgery except: [:hook]
+  	
+  	def hook
+    	params.permit! # Permit all Paypal input params
+    	status = params[:payment_status]
+    	if status == "Completed"
+      		@registration = Registration.find params[:invoice]
+      		@registration.update_attributes notification_params: params, status: status, transaction_id: params[:txn_id], purchased_at: Time.now
+    	end	
+    	render nothing: true
+  	end
+
 	private
 	  	def model_params
 	    params.require(:model).permit(:name, :price, :description, :fileurl)

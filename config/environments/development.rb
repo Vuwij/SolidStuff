@@ -40,14 +40,14 @@ Rails.application.configure do
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 
-  config.after_initialize do  
-  ActiveMerchant::Billing::Base.mode = :test         
-  ::GATEWAY = ActiveMerchant::Billing::PaypalGateway.new(  
-    login: "vuwij-facilitator_api1.me.com",  
-    password: "RZ4ZHAUKN52R42L8",  
-    signature: "An5ns1Kso7MWUdW4ErQKJJJ4qi4-AKqPhJ9xKI9C7kJsyb3Ry5x3ZF6H"  
-  )  
-  end
+  # config.after_initialize do  
+  #   ActiveMerchant::Billing::Base.mode = :test
+  #   ::GATEWAY = ActiveMerchant::Billing::PaypalGateway.new(  
+  #     login: "vuwij-facilitator_api1.me.com",  
+  #     password: "RZ4ZHAUKN52R42L8",  
+  #     signature: "An5ns1Kso7MWUdW4ErQKJJJ4qi4-AKqPhJ9xKI9C7kJsyb3Ry5x3ZF6H"  
+  #   )  
+  # end
 
 
 end
